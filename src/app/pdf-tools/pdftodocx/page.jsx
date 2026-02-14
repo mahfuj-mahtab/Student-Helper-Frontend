@@ -45,8 +45,8 @@ export default function PdfForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-800 p-4">
-      <div className="w-full max-w-md bg-white rounded-2xl shadow-lg p-6">
+    <div className="min-h-screen flex justify-center bg-slate-800 p-4">
+      <div className="w-full max-w-md bg-white h-80 mt-20 rounded-2xl shadow-lg p-6">
         <h2 className="text-2xl font-semibold text-center mb-6 text-gray-900">
           PDF to DOCX Converter
         </h2>
@@ -86,7 +86,7 @@ export default function PdfForm() {
         </form>
 
         {docxUrl && (
-          <div className="mt-6 text-center">
+          <div className="mt-2 text-center">
             <p className="text-green-600 font-medium mb-3">
               Conversion Successful 🎉
             </p>
